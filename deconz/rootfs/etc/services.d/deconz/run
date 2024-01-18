@@ -63,6 +63,12 @@ bashio::config.has_value 'dbg_zdp' \
 # Send out discovery information to Home Assistant
 ./discovery &
 
+DECONZ_HTTP_ROOT=
+
+if [ -d "/data/webapp" ]; then
+    DECONZ_HTTP_ROOT=/data/webapp
+fi
+
 # Start deCONZ
 bashio::log.info "Starting the deCONZ gateway..."
 exec deCONZ \
@@ -76,4 +82,5 @@ exec deCONZ \
     --upnp=0 \
     --http-port=40850 \
     --ws-port=8081 \
-    --dev="${DECONZ_DEVICE}"
+    --dev="${DECONZ_DEVICE}" \
+    --http-root="$DECONZ_HTTP_ROOT"

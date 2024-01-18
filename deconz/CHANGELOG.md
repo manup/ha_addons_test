@@ -1,5 +1,13 @@
 # Changelog
 
+## 6.24.0
+
+- Enable debug webapp in /data directory
+
+## 6.23.0
+
+- Bump to deCONZ v2.24.2
+
 ## 6.22.0
 
 - Revert deCONZ to 2.22.2 due to a Phoscon bug: https://forum.phoscon.de/t/phoscon-de-pwa-login-html-does-not-work-anymore/3967
