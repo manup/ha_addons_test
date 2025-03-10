@@ -1,16 +1,18 @@
 # Changelog
 
-## 6.25.0
+## 8.0.0
 
-- Bump to deCONZ v2.24.3
+- Use openbox instead of dwm as window manager
 
-## 6.24.0
+## 7.0.0
 
-- Enable debug webapp in /data directory
+- Bump deCONZ to 2.28.1
+- Use debian bookworm for all arch types
+- Use dwm instead of wmii as window manager
 
 ## 6.23.0
 
-- Bump to deCONZ v2.24.2
+- Bump deCONZ to 2.25.3
 
 ## 6.22.0
 
@@ -31,7 +33,7 @@
 ## 6.18.0
 
 - Bump deCONZ to 2.20.1
- 
+
 ## 6.17.1
 
 - Bump deCONZ to 2.19.3
